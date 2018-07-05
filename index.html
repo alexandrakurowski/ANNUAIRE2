@@ -14,6 +14,8 @@
 
 <body>
 
+	<h1 id="accueil" type="texte">BIENVENUE DANS VOTRE ANNUAIRE</h1>
+
 	<table id = "bdd">
 
 		<caption> Liste des Contacts</caption>
@@ -47,21 +49,87 @@
 		<tbody></tbody>
 
 	</table>
-
+<!-- A designer et coder !!!!!!!!!! --
+<div id="recherche">
+	
 	<select>
 		<option selected >Rechercher un contact</option>
 		<option class="nom">Par Nom</option>
 		<option class="ville">Par Ville</option>
-		<option class="profession">Par Profession</option>
-		
+		<option class="profession">Par Profession</option>	
 	</select>
 
+	<input type="text" name="choix">tapez votre recherche<button id= "ok" class="button">OK</button></input>
 
+</div>
 
+<div id="ajouter">
 
+	<button id="ajout" class="button">Ajouter contact</button>
 
+</div>
 
+<div id="gestion">
 
+	<input type="text" name="modif">contact à modifier <button id="val" class="button">VALIDER</button></input>
+
+</div>
+-->
+<div id="formulaire">
+
+	 <div>
+        <label for="name">Nom :</label>
+        <input type="text" id="name" name="user_name">
+    </div>
+
+    <div>
+        <label for="prenom">Prénom :</label>
+        <input type="text" id="prenom" name="user_name">
+    </div>
+
+  <!--  <div>
+        <label for="tel">n°de téléphone :</label>
+ajouter puces de selec pro ou perso
+        <input type="text" id="tel" name="user_name">
+    </div>
+    
+	<div>
+        <label for="adresse">N° et Nom de rue :</label>
+        <input type="text" id="rue" name="user_name">
+    </div>
+
+    <div>
+        <label for="mail">e-mail :</label>
+        <input type="email" id="mail" name="user_mail">
+    </div>
+
+    <div>
+        <label for="ville">Commune :</label>
+        <input type="text" id="ville" name="user_name">
+    </div>
+
+    <div>
+        <label for="cp">Code Postal:</label>
+        <input type="text" id="cp" name="user_name">
+    </div>
+
+    <div>
+        <label for="pays">Pays :</label>
+        <input type="text" id="pays" name="user_name">
+    </div>
+-->
+    <button id="envoyer" type="submit">Enregistrer contact</button>
+    <button id="supprimer" type="submit"> Supprimer le contact</button>
+    <button id="modifier" type="submit"> Modifier contact</button>
+
+</form>
+</div>
+
+<div id="afficage">
+	<button id="affbdd" >
+		<!-- au clik affiche la table complete-->
+	</button>
+</div>
 
 <script type="text/javascript" src="annuaire.js"></script>
 </body>
