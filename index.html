@@ -4,9 +4,10 @@
 	<meta charset="utf-8">
 
 	<script type="text/javascript" src="jquery.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="/home/alex/Documents/SIMPLON/exodivers/annuaire2/bootstrap.min.css">
+	<script type="text/javascript" src="/home/alex/Documents/SIMPLON/exodivers/annuaire2/bootstrap.js"></script>
+	<link rel="stylesheet" type="text/css" href="/home/alex/Documents/SIMPLON/exodivers/annuaire2/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="annuaire.css">
-	
+	<link href="https://fonts.googleapis.com/css?family=Encode+Sans+Condensed" rel="stylesheet"> 
 
 	<title>MON ANNUAIRE</title>
 
@@ -61,21 +62,21 @@
 
 	<input type="text" name="choix">tapez votre recherche<button id= "ok" class="button">OK</button></input>
 
-</div>
+</div>-->
 
 <div id="ajouter">
 
 	<button id="ajout" class="button">Ajouter contact</button>
 
 </div>
-
+<!--
 <div id="gestion">
 
 	<input type="text" name="modif">contact à modifier <button id="val" class="button">VALIDER</button></input>
 
 </div>
 -->
-<div id="formulaire">
+<div id="formulaire" class="form">
 
 	 <div>
         <label for="name">Nom :</label>
@@ -87,21 +88,22 @@
         <input type="text" id="prenom" name="user_name">
     </div>
 
-  <!--  <div>
+  	<div>
         <label for="tel">n°de téléphone :</label>
-ajouter puces de selec pro ou perso
+<!--ajouter puces de selec pro ou perso-->
         <input type="text" id="tel" name="user_name">
-    </div>
-    
-	<div>
-        <label for="adresse">N° et Nom de rue :</label>
-        <input type="text" id="rue" name="user_name">
     </div>
 
     <div>
         <label for="mail">e-mail :</label>
         <input type="email" id="mail" name="user_mail">
     </div>
+    
+	<div>
+        <label for="adresse">Adresse :</label>
+        <input type="text" id="rue" name="user_name">
+    </div>
+
 
     <div>
         <label for="ville">Commune :</label>
@@ -109,7 +111,7 @@ ajouter puces de selec pro ou perso
     </div>
 
     <div>
-        <label for="cp">Code Postal:</label>
+        <label for="cp">Code Postal :</label>
         <input type="text" id="cp" name="user_name">
     </div>
 
